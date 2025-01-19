@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+header {
+    background-color: #2d0038;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .contact {
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 10px 10px 10px;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #d4bfff;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about h1 {
+    font-size: 2.5em;
+    color: #6a0dad;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Skills Section */
+.skills {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    color: #6a0dad;
+    margin-bottom: 30px;
+}
+
+.skills .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.skills .skill {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skills .skill img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.projects h2 {
+    color: #6a0dad;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projects .project {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Recommendations Section */
+.recommendations {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.recommendations h2 {
+    color: #6a0dad;
+    margin-bottom: 30px;
+}
+
+.recommendations .recommendation-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto 15px;
+}
+
+.recommendations form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recommendations textarea {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.recommendations button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    /* Adds spacing between the textarea and button */
+    transition: background-color 0.3s;
+}
+
+.recommendations button:hover {
+    background-color: #5b009e;
+}
+
+/* Footer/Home Icon */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2d0038;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

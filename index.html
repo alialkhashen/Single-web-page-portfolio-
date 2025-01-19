@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div>
+            <h1>ALI ALKHASHEN</h1>
+            <p class="contact">ali.alkhashen1997@gmail.com | +(20)-102-043-9755</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <img src="images/Profile_image.png" alt="Profile Image">
+        <h1>Hi, I'm Ali Alkhashen! 👋</h1>
+        <p>I am a full stack developer with 2 years of experience in both application and presentation layers. I have worked on applications and microservices deployed on IBM Cloud.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <img src="images/html_logo.jpg" alt="HTML Logo">
+                <p>HTML</p>
+                <p>2 years experience</p>
+            </div>
+            <div class="skill">
+                <img src="images/css_logo.jpg" alt="CSS Logo">
+                <p>CSS</p>
+                <p>2 years experience</p>
+            </div>
+            <div class="skill">
+                <img src="images/JS_logo.jpg" alt="JavaScript Logo">
+                <p>JavaScript</p>
+                <p>1.5 years experience</p>
+            </div>
+            <div class="skill">
+                <img src="images/react_logo.png" alt="React Logo">
+                <p>React</p>
+                <p>1 year experience</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Chatbot</h3>
+            <p>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript, and IBM Watson Assistant.</p>
+        </div>
+        <div class="project">
+            <h3>Sentiment Analyzer</h3>
+            <p>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU.</p>
+        </div>
+        <div class="project">
+            <h3>Fashion Website</h3>
+            <p>Created a styled multi-page website for a fashion industry client with a shopping cart and Stripe payment gateway.</p>
+        </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations" class="recommendations">
+        <h2>Recommendations</h2>
+        <div class="recommendation-card">
+            "Jane is a very quick learner and quickly grasps key concepts with diligence. She demonstrated a great ability to lead the team and deliver projects on time."
+        </div>
+        <div class="recommendation-card">
+            "Working with Jane has been an awesome experience. She has strong knowledge and always goes the extra mile to make sure the project succeeds."
+        </div>
+
+        <!-- Form -->
+        <form id="recommendation-form">
+            <textarea id="new-recommendation" rows="4" placeholder="Write a recommendation..."></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#">⬆ Back to Top</a>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
